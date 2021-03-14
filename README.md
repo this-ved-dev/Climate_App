@@ -24,3 +24,5 @@ Clone this repository
 run "npm -i"
 ng serve
 You are good to go. Happy Coding!
+
+Created By: Vedant Misra and Abhinav
