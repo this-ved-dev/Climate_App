@@ -1,357 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="shortcut icon"
-      href="./It's time to celebrate (1).png"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css"
-      integrity="sha512-RVmrWua3k1yTDEOg4Yzs2bK5+Thh7nM6jrhDq/6/5/Mwa0JbYe4pP4YMK5sqghKz01T3DgrwYc57Jaf1PSurCg=="
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
-      crossorigin="anonymous"
-    />
-    <title>CLIMATE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Paytm-Nodejs</title>
   </head>
-  <body>
-    <div id="fullPage">
-      <div class="section s1">
-        <div class="navbar">
-          <ul id="myMenu">
-            <li data-menuanchor="firstPage" class="active">
-              <img src="It's time to celebrate.png" height="80px" />
-            </li>
-            <li data-menuanchor="firstPage" class="active">
-              <a href="#firstPage">HOME</a>
-            </li>
-            <li data-menuanchor="secondPage">
-              <a href="#secondPage">IMPACT</a>
-            </li>
-            <li data-menuanchor="thirdPage">
-              <a href="#thirdPage">REASONS</a>
-            </li>
-            <li data-menuanchor="fourthPage">
-              <a href="#fourthPage">SOLUTION</a>
-            </li>
-            <li data-menuanchor="fifthPage">
-              <a href="#fifthPage">SUPPORT US</a>
-            </li>
-            <li data-menuanchor="sixthPage">
-              <a href="#sixthPage">CONTACT US</a>
-            </li>
-          </ul>
-        </div>
-        <div class="heading">
-          <h1>
-            WE HAVE A SINGLE MISSION: TO <a>PROTECT</a> AND <a>HAND-ON</a> THE
-            PLANET TO THE NEXT <a>GENERATION</a>
-          </h1>
-        </div>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          version="1.1"
-          width="350"
-          height="350"
-        >
-          <defs>
-            <clipPath id="clip-land">
-              <circle cx="175" cy="175" r="160" />
-            </clipPath>
-            <clipPath id="clip-clouds">
-              <circle cx="175" cy="175" r="165" />
-            </clipPath>
-          </defs>
-          <circle cx="175" cy="175" r="157" fill="#4294fe" />
-          <g clip-path="url(#clip-land)">
-            <g>
-              <g id="land" fill="#43d8aa">
-                <path
-                  d="M14 101v12a6 6 0 0 1 6 6 6 6 0 0 1-6 6v12h40v-12a6 6 0 0 1-6-6 6 6 0 0 1 6-6v-12H14zm75 177v8a7.5 7.5 0 0 1 7.5 7.5A7.5 7.5 0 0 1 89 301v9h32v-9a7.5 7.5 0 0 1-7.5-7.5 7.5 7.5 0 0 1 7.5-7.5v-8z"
-                />
-                <rect y="9" x="197" width="52" height="30" rx="15" ry="15" />
-                <rect y="57" x="-34" width="150" height="56" rx="28" ry="28" />
-                <rect y="81" x="176" width="65" height="30" ry="15" rx="15" />
-                <rect y="125" x="-3" width="82" height="39" ry="19" rx="19" />
-                <rect y="139" x="189" width="195" height="64" rx="32" ry="32" />
-                <rect y="218" x="250" width="100" height="40" rx="20" ry="20" />
-                <rect y="230" x="-17" width="180" height="56" ry="28" rx="28" />
-                <rect y="301" x="56" width="104" height="30" rx="15" ry="15" />
-              </g>
-              <use transform="translate(400 0)" xlink:href="#land" />
-              <animateTransform
-                attributeName="transform"
-                attributeType="XML"
-                type="translate"
-                from="0 0"
-                to="-400 0"
-                dur="30s"
-                repeatCount="indefinite"
-              />
-            </g>
-          </g>
-          <g clip-path="url(#clip-clouds)">
-            <g>
-              <g id="clouds-static">
-                <g id="clouds" fill="#e6ebfc">
-                  <path
-                    d="M242 87v6.03a3 3 0 0 1 .38-.03 3 3 0 0 1 3 3 3 3 0 0 1-3 3 3 3 0 0 1-.38-.03V105h18v-6a3 3 0 0 1-3-3 3 3 0 0 1 3-3v-6zm53-2v4a5 5 0 0 1 0 10v4h30v-4a5 5 0 0 1 0-10v-4h-30zM48 209v6a4.5 4.5 0 1 1 0 9v3h29v-3a4.5 4.5 0 1 1 0-9v-6zM81 65v3a3.5 3.5 0 1 1 0 7v2h16v-2a3.5 3.5 0 1 1 0-7v-3zm18 181v4a5 5 0 0 1 0 10v4h30v-4a5 5 0 0 1 0-10v-4z"
-                  />
-                  <rect y="50" x="64" width="53" height="18" rx="9" ry="9" />
-                  <rect y="53" x="269" width="80" height="36" rx="18" ry="18" />
-                  <rect y="75" x="0" width="112" height="22" rx="11" ry="11" />
-                  <rect y="83" x="236" width="32" height="10" rx="5" ry="5" />
-                  <rect
-                    y="99"
-                    x="227"
-                    width="112"
-                    height="24"
-                    rx="12"
-                    ry="12"
-                  />
-                  <rect y="102" x="146" width="36" height="16" rx="8" ry="8" />
-                  <rect
-                    y="172"
-                    x="119"
-                    width="62"
-                    height="30"
-                    rx="15"
-                    ry="15"
-                  />
-                  <rect y="197" x="0" width="90" height="18" rx="9" ry="9" />
-                  <rect y="293" x="219" width="30" height="16" rx="8" ry="8" />
-                  <rect
-                    y="224"
-                    x="31"
-                    width="118"
-                    height="26"
-                    rx="13"
-                    ry="13"
-                  />
-                  <rect y="260" x="77" width="77" height="36" rx="18" ry="18" />
-                  <rect
-                    y="264"
-                    x="228"
-                    width="44"
-                    height="22"
-                    rx="11"
-                    ry="11"
-                  />
-                </g>
-                <use transform="translate(400 0)" xlink:href="#clouds" />
-              </g>
-              <animateTransform
-                attributeName="transform"
-                attributeType="XML"
-                type="translate"
-                from="0 0"
-                to="-400 0"
-                dur="20s"
-                repeatCount="indefinite"
-              />
-            </g>
-          </g>
-        </svg>
-        <div class="scroll">
-          <i class="fas fa-angle-double-down"></i>          
-        </div>
-      </div>
-      <div class="section s2">
-        <h1>IMPACT</h1>
-        <div class="slide">
-          <iframe
-            id="iframe"
-            title="Hectares of forests cut down or burned"
-            src="https://www.theworldcounts.com/embed/challenges/93?background_color=none&color=whitesmoke&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=50"
-            style="border: none"
-            height="500"
-            width="800"
-          ></iframe>
-          <div>
-            <a>SWIPE <i class="fas fa-long-arrow-alt-right"></i></a>
+  <body style="background-color:#f5f3ef">
+    <div class="row my-5">
+      <div class="col-md-4 offset-md-4">
+        <div class="card">
+          <div class="card-body">
+            <form class="" action="/paynow" method="post">
+              <div class="form-group">
+                <label for="">Name: </label>
+                <input class="form-control" type="text" name="name" value="">
+              </div>
+              <div class="form-group">
+                <label for="">Email: </label>
+                <input class="form-control" type="text" name="email" value="">
+              </div>
+              <div class="form-group">
+                <label for="">Phone: </label>
+                <input class="form-control" type="text" name="phone" value="">
+              </div>
+                <div class="form-group">
+                <label for="">Amount: </label>
+                <input class="form-control" type="text" name="amount" value="">
+              </div>
+              <div class="form-group">
+                <button class="btn form-control btn-primary">Pay Now</button>
+              </div>
+            </form>
           </div>
-        </div>
-        <div class="slide">
-          <iframe
-            id="iframe"
-            title="Tons of CO2 emitted into the atmosphere"
-            src="https://www.theworldcounts.com/embed/challenges/23?background_color=none&color=whitesmoke&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=50"
-            style="border: none"
-            height="500"
-            width="900"
-          ></iframe>
-          <div>
-            <a>SWIPE <i class="fas fa-long-arrow-alt-right"></i></a>
-          </div>
-        </div>
-        <div class="slide">
-          <iframe
-            id="iframe"
-            title="World average temperature (°C)"
-            src="https://www.theworldcounts.com/embed/challenges/21?background_color=none&color=whitesmoke&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=50"
-            style="border: none"
-            height="500"
-            width="900"
-          ></iframe>
-          <div>
-            <a>SWIPE <i class="fas fa-long-arrow-alt-right"></i></a>
-          </div>
-        </div>
-        <div class="slide">
-          <iframe
-            id="iframe"
-            title="Rise in sea levels (cm)"
-            src="https://www.theworldcounts.com/embed/challenges/68?background_color=none&color=whitesmoke&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=50"
-            style="border: none"
-            height="500"
-            width="900"
-          ></iframe>
-          <div>
-            <a>SWIPE <i class="fas fa-long-arrow-alt-right"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="section s3">
-        <h1>REASONS</h1>
-      </div>
-      <div class="section s4">
-        <h1>SOLUTION</h1>
-      </div>
-      <div class="section s5">
-        <h1><a href="./Paytm_link/index.html">SUPPORT US</a></h1>
-        <h2>Every Rupee donated will be given to a NGO battling the fight against climate change </h2>
-        
-      </div>
-      <div class="section s6">
-        <div class="form-container">
-          <h1>CONTACT US</h1>
-          <hr />
-          <form action="mail_handler.php" method="post" name="form">
-            <div class="field">
-              <label for="username">
-                <i class="far fa-user"></i>Your Name
-              </label>
-              <br />
-              <input
-                name="username"
-                type="text"
-                placeholder="e.g. john doe"
-                required
-              />
-            </div>
-            <div class="field">
-              <label for="email">
-                <i class="far fa-envelope"></i>Your Email
-              </label>
-              <br />
-              <input
-                name="email"
-                type="text"
-                placeholder="email@domain.com"
-                required
-              />
-            </div>
-            <div class="field">
-              <label for="message">
-                <i class="far fa-edit"></i>Your Message
-              </label>
-              <br />
-              <textarea
-                name="message"
-                placeholder="Type here"
-                required
-              ></textarea>
-            </div>
-            <button type="reset" name="submit">Send Me Message</button>
-            <div class="social-media">
-              <a> Get In Touch<i class="fas fa-long-arrow-alt-right"></i> </a>
-              <a
-                class="fab fa-facebook-f"
-                href="https://facebook.com/uzcho"
-                target="blank_"
-              ></a>
-              <a
-                class="fab fa-twitter"
-                href="https://twitter.com/uzcho_"
-                target="blank_"
-              ></a>
-              <a
-                class="fab fa-instagram"
-                href="https://www.instagram.com/uzcho_"
-                target="blank_"
-              ></a>
-              <a
-                class="fab fa-codepen"
-                href="https://codepen.io/uzcho_"
-                target="blank_"
-              ></a>
-            </div>
-          </form>
         </div>
       </div>
     </div>
-
-    <script type="text/javascript" src="app.js"></script>
-    <script type="text/javascript" src="index.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
-      integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      new fullpage("#fullPage", {
-        autoScrolling: true,
-        navigation: true,
-        anchors: [
-          "firstPage",
-          "secondPage",
-          "thirdPage",
-          "fourthPage",
-          "fifthPage",
-          "sixthPage",
-        ],
-        navigationTooltips: [
-          "HOME",
-          "IMPACT",
-          "REASONS",
-          "SOLUTION",
-          "SUPPORT",
-          "CONTACT",
-        ],
-        showActiveTooltip: true,
-        scrollingSpeed: 1000,
-        controlArrows: false,
-        slidesNavigation: true,
-        sectionsColor: [
-          "#110b39",
-          "#0a0a0a",
-          "#7BAABE",
-          "whitesmoke",
-          "#000",
-          "#110b39",
-        ],
-        loopBottom: true,
-        loopTop: true,
-        dragAndMove: true,
-        verticalCentered: true,
-      });
-    </script>
   </body>
 </html>
