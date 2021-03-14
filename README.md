@@ -20,3 +20,7 @@ This webiste has 5 pages namely
 
 7. The Contact Us page enables the user to send us a message in order to reach us pertaining to any doubts or sometihng other. 
 8.![image](https://user-images.githubusercontent.com/73465394/111066055-13d37580-84e3-11eb-9bf3-20c2de2a3755.png)
+Clone this repository
+run "npm -i"
+ng serve
+You are good to go. Happy Coding!
